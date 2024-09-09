@@ -116,7 +116,7 @@ class ViewAssignedClassesScreen extends StatelessWidget {
       ),
       body: StreamBuilder<List<Map<String, dynamic>>>(
         stream: FirebaseFirestore.instance
-            .collection('teachers') // Collection where you store classes
+            .collection('teachers')
             .snapshots()
             .map((snapshot) => snapshot.docs
                 .map((doc) => doc.data() as Map<String, dynamic>)
@@ -219,7 +219,7 @@ class _ViewstudentDetailsState extends State<ViewstudentDetails> {
       body: StreamBuilder<List<Map<String, dynamic>>>(
         stream: FirebaseFirestore.instance
             .collection(
-                'students') // Ensure this is the correct collection name
+                'students') 
             .snapshots()
             .map((snapshot) => snapshot.docs
                 .map((doc) => doc.data() as Map<String, dynamic>)
