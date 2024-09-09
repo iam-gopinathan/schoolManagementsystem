@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "86829265180",
+    "project_id": "schoolmanagementsystem-9db78",
+    "storage_bucket": "schoolmanagementsystem-9db78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86829265180:android:eb53b90b664008aa078ad9",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86829265180-406ilkgm7a9fm1i0de6l80l37vu1gk10.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter_application_1",
+            "certificate_hash": "2daf9c73205220d9a0b2cfeb34f8af6f1a523e80"
+          }
+        },
+        {
+          "client_id": "86829265180-k0ud98apnj2dmhgsrk3b4vep0skl8jio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAioLFv0jwHCRdNrZlXgzL3yWsuBt3SOnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "86829265180-k0ud98apnj2dmhgsrk3b4vep0skl8jio.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
